@@ -35,13 +35,13 @@ h2 {
 
 /* unvisited link */
 a:link {
-    color: #90d3c7;
+    color: #c9e5e0;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #90d3c7;
+    color: #c9e5e0;
     text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #90d3c7;
+    color: #c9e5e0;
     text-decoration: none;
 }
 
