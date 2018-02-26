@@ -1,0 +1,104 @@
+h1 {
+  font-family: "Lato",Arial,sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #d3efea;
+  text-transform: capitalize;
+  padding: 300px 0px 400px 0px;
+}
+
+h2 {
+  font-family: "Lato",Arial,sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #d3efea;
+  /*text-decoration: underline;*/
+  padding: 60px 0px 5px 0px;
+}
+
+body {
+	color: #555;
+  font-family: "Helvetica",Arial,sans-serif;
+  font-size: 12px;
+  font-spacing: 5px;
+  border: 0px 10px 50px 10px;
+  width: 100%;
+}
+
+/* unvisited link */
+a:link {
+    color: #90d3c7;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #90d3c7;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #555;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #90d3c7;
+    text-decoration: none;
+}
+
+.wrapper {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#tagline {
+  font-family: "Lato",Arial,sans-serif;
+  font-size: 25px;
+  font-weight: light;
+  text-align: right;
+  padding: 100px 0px 200px 0px;
+  margin: 50px;
+  text-transform: lowercase;
+}
+
+#bio {
+  padding: 5px 90px 100px 0px;
+  margin: 50px;
+}
+
+#client-header {
+  color: white;
+  padding: 60px 0px 0px 0px;
+}
+
+#client {
+  background-color: #d3efea;
+  margin: 5px 10px 6px 0px; /* 5px top, 10px right, 6px bottom, 8px left */
+}
+
+#footer {
+  font-family: "Lato",Arial,sans-serif;
+  padding: 200px 0px 0px 25px;
+}
+
+a.MyButton {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  background: #d3efea;
+  padding: 10px 20px 10px 20px;
+  border: solid #cccccc 1px;
+  text-decoration: none;
+}
+
+a.MyButton:hover {
+  color: #d3efea;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
