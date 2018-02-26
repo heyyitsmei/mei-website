@@ -1,3 +1,12 @@
+body {
+	color: #555;
+  font-family: "Helvetica",Arial,sans-serif;
+  font-size: 12px;
+  font-spacing: 5px;
+  border: 0px 10px 50px 10px;
+  width: 100%;
+}
+
 h1 {
   font-family: "Lato",Arial,sans-serif;
   font-size: 65px;
@@ -17,15 +26,6 @@ h2 {
   color: #d3efea;
   /*text-decoration: underline;*/
   padding: 60px 0px 5px 0px;
-}
-
-body {
-	color: #555;
-  font-family: "Helvetica",Arial,sans-serif;
-  font-size: 12px;
-  font-spacing: 5px;
-  border: 0px 10px 50px 10px;
-  width: 100%;
 }
 
 /* unvisited link */
@@ -57,6 +57,9 @@ a:active {
   padding-right: 50px;
 }
 
+#header { }
+#header-title { }
+
 #tagline {
   font-family: "Lato",Arial,sans-serif;
   font-size: 25px;
@@ -67,10 +70,15 @@ a:active {
   text-transform: lowercase;
 }
 
+#tagline p { }
+
 #bio {
   padding: 5px 90px 100px 0px;
   margin: 50px;
 }
+#bio p { }
+
+#bio-title { }
 
 #client-header {
   color: white;
@@ -82,10 +90,19 @@ a:active {
   margin: 5px 10px 6px 0px; /* 5px top, 10px right, 6px bottom, 8px left */
 }
 
+#clients { }
+
+#contact { }
+#contact p { }
+#contact-title { }
+
 #footer {
   font-family: "Lato",Arial,sans-serif;
   padding: 200px 0px 0px 25px;
 }
+
+#footer p { }
+#footer a { }
 
 a.MyButton {
   font-family: Arial;
