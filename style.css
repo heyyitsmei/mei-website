@@ -1,10 +1,11 @@
 body {
 	color: #555;
-  font-family: "Helvetica",Arial,sans-serif;
-  font-size: 12px;
+  font-family: "Lato",Arial,sans-serif;
+  font-size: 13px;
   font-spacing: 5px;
   border: 0px 10px 50px 10px;
   width: 100%;
+	margin: 0px;
 }
 
 h1 {
@@ -67,7 +68,6 @@ a:active {
   text-align: right;
   padding: 100px 0px 200px 0px;
   margin: 50px;
-  text-transform: lowercase;
 }
 
 #tagline p { }
@@ -76,7 +76,9 @@ a:active {
   padding: 5px 90px 100px 0px;
   margin: 50px;
 }
-#bio p { }
+#bio p {
+	padding: 0px 90px 0px 0px;
+}
 
 #bio-title { }
 
@@ -87,18 +89,31 @@ a:active {
 
 #client {
   background-color: #d3efea;
-  margin: 5px 10px 6px 0px; /* 5px top, 10px right, 6px bottom, 8px left */
+  margin: 5px 0px 6px 0px; /* 5px top, 10px right, 6px bottom, 8px left */
 }
 
-#clients { }
+#clients {
+	text-align:center;
+}
 
-#contact { }
+#client img {
+	max-width: 100%;
+}
+
+#contact {
+	padding: 60px 0px 0px 25px;
+	margin: 30px;
+}
 #contact p { }
 #contact-title { }
 
 #footer {
   font-family: "Lato",Arial,sans-serif;
-  padding: 200px 0px 0px 25px;
+  padding: 200px 0px 0px 50px;
+}
+
+#footer img {
+	padding: 0px 10px 0px 0px;
 }
 
 #footer p { }
@@ -112,6 +127,7 @@ a.MyButton {
   padding: 10px 20px 10px 20px;
   border: solid #cccccc 1px;
   text-decoration: none;
+	display: inline-block
 }
 
 a.MyButton:hover {
