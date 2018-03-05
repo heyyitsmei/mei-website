@@ -140,7 +140,7 @@ a.MyButton:hover {
   border: 1px solid #cccccc;
 }
 
-@media (max-width: 978px) {
+@media (max-width: 700px) {
 	h1 {
 		font-size: 70px;
 	}
