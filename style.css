@@ -141,6 +141,10 @@ a.MyButton:hover {
 }
 
 @media (max-width: 978px) {
+	h1 {
+		font-size: 70px;
+	}
+
 	h2 {
 		padding: 0px 0px 0px 0px;
 	}
@@ -148,6 +152,9 @@ a.MyButton:hover {
 	#about p {
 		padding: 0px 0px 0px 0px;
 	}
+
+	#tagline {
+	  font-size: 16px;
 
 		.container {
       padding:0;
