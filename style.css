@@ -76,15 +76,15 @@ a:active {
 
 #tagline p { }
 
-#bio {
-  padding: 5px 90px 100px 0px;
+#about {
+  padding: 5px 90px 30px 0px;
   margin: 50px;
 }
-#bio p {
-	padding: 0px 90px 0px 0px;
+#about p {
+	padding: 0px 250px 0px 0px;
 }
 
-#bio-title { }
+#about-title { }
 
 #client-header {
   color: white;
@@ -101,11 +101,11 @@ a:active {
 }
 
 #client img {
-	max-width: 100%;
+	max-width: 90%;
 }
 
 #contact {
-	padding: 60px 0px 0px 25px;
+	padding: 10px 0px 0px 25px;
 	margin: 30px;
 }
 #contact p { }
@@ -138,4 +138,29 @@ a.MyButton:hover {
   color: #d3efea;
   background: #ffffff;
   border: 1px solid #cccccc;
+}
+
+@media (max-width: 978px) {
+	h2 {
+		padding: 0px 0px 0px 0px;
+	}
+
+	#about p {
+		padding: 0px 0px 0px 0px;
+	}
+
+		.container {
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
 }
