@@ -182,7 +182,7 @@ a.MyButton:hover {
     }
 
     body {
-      padding:0;
+      border: 0px 5px 50px 5px;
     }
 
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
