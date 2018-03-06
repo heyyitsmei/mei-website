@@ -144,7 +144,7 @@ a.MyButton:hover {
 @media (max-width: 700px) {
 	body {
         overflow-x: hidden !important;
-				border: 0px 10px 50px 10px;
+				border: 0px 5px 50px 5px;
 				width: 100%;
 				margin: 0px;
     }
@@ -161,6 +161,11 @@ a.MyButton:hover {
 		padding: 0px 0px 0px 0px;
 	}
 
+	#tagline {
+	  font-size: 18px;
+		font-weight: regular;
+	}
+
 	#about {
 		padding: 0px 0px 20px 0px;
 		margin-top: 0px;
@@ -172,18 +177,11 @@ a.MyButton:hover {
 	#about p {
 		width: 90%;
 
-	#tagline {
-	  font-size: 18px;
-		font-weight: regular;
 
-		.container {
+		/*.container {
       padding:0;
       margin:0;
-    }
-
-    body {
-      border: 0px 5px 50px 5px;
-    }
+    }*/
 
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
       margin-left: 0;
