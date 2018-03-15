@@ -188,4 +188,8 @@ a.MyButton:hover {
       margin-right: 0;
       margin-bottom:0;
     }
+
+		#footer {
+		  font-size: 10px;
+		}
 }
