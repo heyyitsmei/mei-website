@@ -176,7 +176,7 @@ a.MyButton:hover {
 
 	#about p {
 		width: 90%;
-
+	}
 
 		/*.container {
       padding:0;
@@ -190,11 +190,11 @@ a.MyButton:hover {
     }
 
 		#footer {
-		  font-size: 8px;
+		  font-size: 11px;
 			padding: 100px 0px 0px 50px;
 		}
 
 		#footer img {
-			padding: 0px 5px 0px 0px;
+			padding: 0px 3px 0px 0px;
 		}
 }
