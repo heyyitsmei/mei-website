@@ -17,7 +17,7 @@ h1 {
   font-size: 65px;
   font-weight: bold;
   letter-spacing: 3px;
-  color: #d3efea;
+  color: #d7b29f;
   text-transform: capitalize;
   padding: 300px 0px 400px 0px;
 }
@@ -28,20 +28,20 @@ h2 {
   font-size: 20px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #d3efea;
+  color: #d7b29f;
   /*text-decoration: underline;*/
   padding: 60px 0px 5px 0px;
 }
 
 /* unvisited link */
 a:link {
-    color: #c9e5e0;
+    color: #dc7f62;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #c9e5e0;
+    color: #dc7f62;
     text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #c9e5e0;
+    color: #dc7f62;
     text-decoration: none;
 }
 
@@ -93,7 +93,7 @@ a:active {
 }
 
 #client {
-  background-color: #d3efea;
+  background-color: #d7b29f;
   margin: 5px 0px 6px 0px; /* 5px top, 10px right, 6px bottom, 8px left */
 }
 
@@ -128,7 +128,7 @@ a.MyButton {
   font-family: Arial;
   color: #ffffff;
   font-size: 14px;
-  background: #d3efea;
+  background: #d7b29f;
   padding: 10px 20px 10px 20px;
   border: solid #cccccc 1px;
   text-decoration: none;
@@ -136,7 +136,7 @@ a.MyButton {
 }
 
 a.MyButton:hover {
-  color: #d3efea;
+  color: #d7b29f;
   background: #ffffff;
   border: 1px solid #cccccc;
 }
